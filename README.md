@@ -12,6 +12,7 @@ Measuring the execution time of a function
 | 1.3.50 | [Kotlin](https://github.com/xaoc-303/fibonacci-kotlin) (compiled) | 0.00541852 | 0.03712514 | 0.39989920 | 4.41861456 |
 | 1.13.1 | [Go](https://github.com/xaoc-303/fibonacci-go) | 0.00559842 | 0.05122938 | 0.53362809 | 5.75826140 |
 | 1.13.1 | [Go](https://github.com/xaoc-303/fibonacci-go) (compiled) | 0.00591578 | 0.05948975 | 0.53472273 | 5.80004869 |
+| gcc 9.4.0 | [C++](https://github.com/xaoc-303/fibonacci-cpp) (compiled) | 0.00711500 | 0.06800700 | 0.83913600 | 9.31474400 |
 | 1.8.0_192 | [Java](https://github.com/xaoc-303/fibonacci-java) (compiled) | 0.01626378 | 0.05006661 | 0.41549475 | 4.47823378 |
 | 1.38.0 | [Rust](https://github.com/xaoc-303/fibonacci-rust) (compiled) | 0.01515268 | 0.13358528 | 1.34242942 | 14.76075383 |
 | 1.10.1.469 | [Clojure](https://github.com/xaoc-303/fibonacci-clojure) (uberjar) | 0.03835653 | 0.20863053 | 2.07542750 | 23.25552847 |
@@ -25,7 +26,6 @@ Measuring the execution time of a function
 | 3.7.0 | [Python](https://github.com/xaoc-303/fibonacci-python) | 0.32678509 | 3.54449487 | 38.80285716 | 478.11391401 |
 | 5.18.4 | [Perl](https://github.com/xaoc-303/fibonacci-perl) | 0.48761415 | 5.35093021 | 58.68868995 | 671.45659089 |
 | clang 10.0.1 | [C](https://github.com/xaoc-303/fibonacci-c) (compiled) | | | | |
-| clang 10.0.1 | [C++](https://github.com/xaoc-303/fibonacci-cpp) (compiled) | | | | |
 
 ## optimization
 
@@ -33,6 +33,7 @@ Measuring the execution time of a function
 | --- | --- | --- | --- | --- | --- |
 | 1.13.1 | [Go](https://github.com/xaoc-303/fibonacci-go) | 0.00000020 | 0.00000022 | 0.00000021 | 0.00000022 |
 | 1.13.1 | [Go](https://github.com/xaoc-303/fibonacci-go) (compiled) | 0.00000024 | 0.00000019 | 0.00000023 | 0.00000021 |
+| gcc 9.4.0 | [C++](https://github.com/xaoc-303/fibonacci-cpp) (compiled) | 0.00000100 | 0.00000100 | 0.00000100 | 0.00000100 |
 | 1.3.50 | [Kotlin](https://github.com/xaoc-303/fibonacci-kotlin) (compiled) | 0.00000191 | 0.00000203 | 0.00000217 | 0.00000233 |
 | 5.3.5 | [Lua](https://github.com/xaoc-303/fibonacci-lua) | 0.00000200 | 0.00000300 | 0.00000300 | 0.00000300 |
 | 1.38.0 | [Rust](https://github.com/xaoc-303/fibonacci-rust) (compiled) | 0.00000255 |  0.00000261 | 0.00000303 | 0.00000330 |
@@ -47,7 +48,6 @@ Measuring the execution time of a function
 | 1.9.2 | [Elixir](https://github.com/xaoc-303/fibonacci-elixir) (compiled) | 0.00184500 | 0.00180000 | 0.00181200 | 0.00182200 |
 | 1.8.0_192 | [Java](https://github.com/xaoc-303/fibonacci-java) (compiled) | 0.01183933 | 0.01229628 | 0.01198657 | 0.01203628 |
 | clang 10.0.1 | [C](https://github.com/xaoc-303/fibonacci-c) (compiled) | | | | |
-| clang 10.0.1 | [C++](https://github.com/xaoc-303/fibonacci-cpp) (compiled) | | | | |
 
 #### setting console command 'time'
 ```
