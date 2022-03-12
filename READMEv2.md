@@ -32,6 +32,7 @@ Measurement of total time with start / stop (use command `time`)
 
 | v | # | 30 | 35 | 40 | 45 | 50 |
 | --- | --- | --- | --- | --- | --- | --- |
+| NASM 2.15.05 | [NAMS](./asm/fib.asm) (compiled) | 0,001 | 0,001 | 0,001 | 0,001 | 0,001 |
 | gcc 9.2.0 | [C++](./cpp/fibo_ex.cpp) (compiled) | 0,002 | 0,002 | 0,002 | 0,001 | 0,002 |
 | gcc 9.2.0 | [C](./c/fibo_ex.c) (compiled) | 0,004 | 0,004 | 0,004 | 0,003 | 0,004 |
 | 1.38.0 | [Rust](./rust/fibo_ex.rs) (compiled) | 0,004 | 0,004 | 0,004 | 0,004 | 0,004 |
